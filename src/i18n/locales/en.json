@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "hero": {
+    "hi": "Hi,",
+    "ima": "I'm",
+    "iCreateStellarWeb": "I create stellar web experiences with modern technologies. Specializing in front-end development, I build interfaces that are both beautiful and functional.",
+    "viewMyWork": "View My Work",
+    "scroll": "Scroll"
+  }
+}

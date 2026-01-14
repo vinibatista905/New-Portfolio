@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos"
+  },
+  "hero": {
+    "hi": "Olá,",
+    "ima": "Eu sou",
+    "iCreateStellarWeb": "Crio experiências web excepcionais com tecnologias modernas. Especializado em desenvolvimento front-end, construo interfaces que são ao mesmo tempo belas e funcionais.",
+    "viewMyWork": "Ver Meu Trabalho",
+    "scroll": "Rolar"
+  }
+}
