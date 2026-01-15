@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "Sobre",
     "skills": "Habilidades",
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "contact": "Contato"
   },
   "hero": {
     "hi": "Olá,",
@@ -11,5 +12,28 @@
     "iCreateStellarWeb": "Crio experiências web excepcionais com tecnologias modernas. Especializado em desenvolvimento front-end, construo interfaces que são ao mesmo tempo belas e funcionais.",
     "viewMyWork": "Ver Meu Trabalho",
     "scroll": "Rolar"
+  },
+  "about": {
+    "about": "Sobre",
+    "me": "Mim",
+    "passionateWebDeveloper": "Desenvolvedor Web Apaixonado & Criador de Tecnologia",
+    "aboutFirstDesc": "Com mais de 4 anos de experiência em desenvolvimento web, me especializei na criação de aplicações web responsivas, acessíveis e performáticas utilizando tecnologias modernas.",
+    "aboutSecondDesc": "Sou apaixonado por criar soluções elegantes para problemas complexos e estou sempre aprendendo novas tecnologias e técnicas para me manter na vanguarda do cenário web em constante evolução.",
+    "getInTouch": "Entre em Contato",
+    "downloadCV": "Baixar Currículo",
+    "webDevelopment": "Desenvolvimento Web",
+    "creatingResponsive": "Criando sites e aplicações web responsivas com frameworks modernos.",
+    "uiuxDesign": "Design UI/UX",
+    "designingIntuitive": "Projetando interfaces de usuário intuitivas e experiências digitais fluidas.",
+    "projectManagement": "Gestão de Projetos",
+    "leadingProjects": "Liderando projetos desde a concepção até a entrega utilizando metodologias ágeis."
+  },
+  "skills": {
+    "my": "Minhas",
+    "skills": "Habilidades",
+    "all": "Todos",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Ferramentas"
   }
 }

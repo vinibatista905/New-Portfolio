@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-    "projects": "Projects"
+    "projects": "Projects",
+    "contact": "Contact"
   },
   "hero": {
     "hi": "Hi,",
@@ -11,5 +12,28 @@
     "iCreateStellarWeb": "I create stellar web experiences with modern technologies. Specializing in front-end development, I build interfaces that are both beautiful and functional.",
     "viewMyWork": "View My Work",
     "scroll": "Scroll"
+  },
+  "about": {
+    "about": "About",
+    "me": "Me",
+    "passionateWebDeveloper": "Passionate Web Developer & Tech Creator",
+    "aboutFirstDesc": "With over 4 years of experience in web development, I specialized in creating responsive, accessible, and performant web applications using modern technologies.",
+    "aboutSecondDesc": "I'm passionate about creating elegant solutions to complex problems, and I'm constantly learning new technologies and techniques to stay at the forefront of the ever-evolving web landscape.",
+    "getInTouch": "Get In Touch",
+    "downloadCV": "Download CV",
+    "webDevelopment": "Web Development",
+    "creatingResponsive": "Creating responsive websites and web applications with modern frameworks.",
+    "uiuxDesign": "UI/UX Design",
+    "designingIntuitive": "Designing intuitive user interfaces and seamless user experiences.",
+    "projectManagement": "Project Management",
+    "leadingProjects": "Leading projects from conception to completion with agile methodologies."
+  },
+  "skills": {
+    "my": "My",
+    "skills": "Skills",
+    "all": "All",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
   }
 }

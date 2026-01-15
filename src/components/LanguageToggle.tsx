@@ -21,35 +21,33 @@ export const LanguageToggle = () => {
   const isPt = language === "pt";
 
   return (
-    <button
+    <div
       onClick={toggleLanguage}
       className={cn(
-        "max-sm:hidden top-5 z-50",
-        "w-20 h-9 rounded-full relative",
-        "bg-primary-foreground/20",
+        "max-sm:hidden",
+        "w-20 h-9 rounded-full",
+        "bg-primary/20",
+        "relative flex items-center cursor-pointer",
         "transition-colors duration-300",
         "focus:outline-hidden"
       )}
     >
-      {/* Fundo deslizante */}
       <span
         className={cn(
           "absolute top-1 left-1 w-8 h-7 rounded-full",
-          "bg-primary-foreground/50",
+          "bg-primary-foreground/70 text-primary font-bold",
+          "flex items-center justify-center text-sm font-bold",
           "transition-transform duration-300",
           isPt ? "translate-x-0" : "translate-x-10"
         )}
-      />
+      >
+        {isPt ? "PT" : "EN"}
+      </span>
 
-      {/* Labels fixas */}
-      <div className="absolute inset-0 flex items-center justify-between px-2 text-sm font-semibold">
-        <span className={cn(isPt ? "text-primary font-bold" : "text-foreground")}>
-          PT
-        </span>
-        <span className={cn(!isPt ? "text-primary font-bold" : "text-foreground")}>
-          EN
-        </span>
+      <div className="absolute inset-0 flex items-center justify-between px-2 text-foreground text-xs font-semibold opacity-60">
+        <span>{!isPt ? "PT" : ""}</span>
+        <span>{isPt ? "EN" : ""}</span>
       </div>
-    </button>
+    </div>
   );
 };

@@ -1,41 +1,38 @@
 import { Briefcase, Code, User } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const AboutSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="p-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary"> Me</span>
+          {t("about.about")}{" "}
+          <span className="text-primary"> {t("about.me")}</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              {t("about.passionateWebDeveloper")}
             </h3>
 
-            <p className="text-muted-foreground">
-              With over 4 years of experience in web development, I specialized
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
-            </p>
+            <p className="text-muted-foreground">{t("about.aboutFirstDesc")}</p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              {t("about.aboutSecondDesc")}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
-                Get In Touch
+                {t("about.getInTouch")}
               </a>
               <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                {t("about.downloadCV")}
               </a>
             </div>
           </div>
@@ -47,8 +44,12 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Web Development</h4>
-                    <p className="text-muted-foreground">Creating responsive websites and web applications with modern frameworks.</p>
+                  <h4 className="font-semibold text-lg">
+                    {t("about.webDevelopment")}
+                  </h4>
+                  <p className="text-muted-foreground">
+                    {t("about.creatingResponsive")}
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,8 +59,12 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                    <p className="text-muted-foreground">Designing intuitive user interfaces and seamless user experiences.</p>
+                  <h4 className="font-semibold text-lg">
+                    {t("about.uiuxDesign")}
+                  </h4>
+                  <p className="text-muted-foreground">
+                    {t("about.designingIntuitive")}
+                  </p>
                 </div>
               </div>
             </div>
@@ -69,8 +74,12 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Project Management</h4>
-                    <p className="text-muted-foreground">Leading projects from conception to completion with agile methodologies.</p>
+                  <h4 className="font-semibold text-lg">
+                    {t("about.projectManagement")}
+                  </h4>
+                  <p className="text-muted-foreground">
+                    {t("about.leadingProjects")}
+                  </p>
                 </div>
               </div>
             </div>

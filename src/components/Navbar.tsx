@@ -1,16 +1,21 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { LanguageToggle } from "./LanguageToggle";
+import { ThemeToggle } from "./ThemeToggle";
+import { useTranslation } from "react-i18next";
 
 const navItems = [
-  { name: "Home", href: "#hero" },
-  { name: "About", href: "#about" },
-  { name: "Skill", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "navbar.home", href: "#hero" },
+  { name: "navbar.about", href: "#about" },
+  { name: "navbar.skills", href: "#skills" },
+  { name: "navbar.projects", href: "#projects" },
+  { name: "navbar.contact", href: "#contact" },
 ];
 
 export const Navbar = () => {
+  const { t } = useTranslation();
+
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -42,16 +47,23 @@ export const Navbar = () => {
         </a>
 
         {/* Desktop */}
-        <div className="hidden md:flex space-x-8">
-          {navItems.map((item, key) => (
-            <a
-              key={key}
-              href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
-            >
-              {item.name}
-            </a>
-          ))}
+        <div className="flex items-center gap-4">
+          <div className="hidden md:flex space-x-8">
+            {navItems.map((item, key) => (
+              <a
+                key={key}
+                href={item.href}
+                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                {t(item.name)}
+              </a>
+            ))}
+          </div>
+
+          <div className="top-5 right-5 z-50 flex items-center gap-3 max-sm:hidden">
+            <LanguageToggle />
+            <ThemeToggle />
+          </div>
         </div>
 
         {/* Mobile */}
