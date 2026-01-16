@@ -84,6 +84,11 @@ export const Navbar = () => {
               : "opacity-0 pointer-events-none"
           )}
         >
+          <div className="flex items-center gap-3 mb-8">
+            <LanguageToggle />
+            <ThemeToggle />
+          </div>
+
           <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
               <a
@@ -92,7 +97,7 @@ export const Navbar = () => {
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                {item.name}
+                {t(item.name)}
               </a>
             ))}
           </div>

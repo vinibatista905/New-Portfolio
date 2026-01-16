@@ -35,5 +35,46 @@
     "frontend": "Frontend",
     "backend": "Backend",
     "tools": "Tools"
+  },
+  "projects": {
+    "featured": "Featured",
+    "projects": "Projects",
+    "projectsSectionDesc": "Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.",
+    "checkMyGithub": "Check My Github",
+    "moneyTrees": {
+      "about": "Website of a fictitious virtual bank created with ReactJS."
+    },
+    "chatApp": {
+      "about": "A chat room application built with ReactJS and Chat Engine."
+    },
+    "criptoTracker": {
+      "about": "Cryptocurrency research app built with Next.js."
+    }
+  },
+  "contact": {
+    "getIn": "Get In",
+    "touch": "Touch",
+    "contactDesc": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities.",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "spBrazil": "São Paulo, Brazil",
+    "connectWithMe": "Connect With Me",
+    "sendMessage": "Send a Massage",
+    "form": {
+      "yourName": "Your Name",
+      "namePlaceholder": "John Doe...",
+      "yourEmail": "Your Email",
+      "emailPlaceholder": "johndoe@email.com",
+      "yourMessage": "Your Message",
+      "messagePlaceholder": "Hello, I'd like to talk about...",
+      "sendMessage": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+  "toast": {
+    "messageSent": "Message sent!",
+    "thankYouForYourMessage": "Thank you for your message. I'll get back to you soon."
   }
 }

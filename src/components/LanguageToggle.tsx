@@ -24,7 +24,6 @@ export const LanguageToggle = () => {
     <div
       onClick={toggleLanguage}
       className={cn(
-        "max-sm:hidden",
         "w-20 h-9 rounded-full",
         "bg-primary/20",
         "relative flex items-center cursor-pointer",

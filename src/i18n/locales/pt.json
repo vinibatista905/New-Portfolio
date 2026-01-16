@@ -35,5 +35,46 @@
     "frontend": "Frontend",
     "backend": "Backend",
     "tools": "Ferramentas"
+  },
+  "projects": {
+    "featured": "Destaques",
+    "projects": "Projetos",
+    "projectsSectionDesc": "Aqui estão alguns dos meus projetos recentes. Cada projeto foi cuidadosamente desenvolvido com atenção aos detalhes, desempenho e experiência do usuário.",
+    "checkMyGithub": "Confira Meu Github",
+    "moneyTrees": {
+      "about": "Website de um banco virtual fictício criado com ReactJS."
+    },
+    "chatApp": {
+      "about": "Uma aplicação de salas de chat criado com ReactJS e Chat Engine."
+    },
+    "criptoTracker": {
+      "about": "App para pesquisa de cripto moedas criado com Next.js."
+    }
+  },
+  "contact": {
+    "getIn": "Entre em",
+    "touch": "Contato",
+    "contactDesc": "Tem algum projeto em mente ou gostaria de colaborar? Entre em contato. Estou sempre aberto a novas oportunidades.",
+    "contactInformation": "Informações de Contato",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "location": "Localização",
+    "spBrazil": "São Paulo, Brasil",
+    "connectWithMe": "Conecte-se Comigo",
+    "sendMessage": "Envie uma Mensagem",
+    "form": {
+      "yourName": "Seu Nome",
+      "namePlaceholder": "João da Silva...",
+      "yourEmail": "Seu E-mail",
+      "emailPlaceholder": "joaodasilva@email.com",
+      "yourMessage": "Sua Mensagem",
+      "messagePlaceholder": "Olá, gostaria de falar sobre...",
+      "sendMessage": "Enviar Mensagem",
+      "sending": "Enviando..."
+    }
+  },
+  "toast": {
+    "messageSent": "Mensagem enviada!",
+    "thankYouForYourMessage": "Obrigado pela sua mensagem. Entrarei em contato em breve."
   }
 }
