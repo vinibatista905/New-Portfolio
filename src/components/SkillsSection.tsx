@@ -1,14 +1,7 @@
-import { skillsData } from "@/data/skills";
+import { skillsCategories, skillsData } from "@/data/skills";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
-const categories = [
-  { name: "skills.all", type: "all" },
-  { name: "skills.frontend", type: "frontend" },
-  { name: "skills.backend", type: "backend" },
-  { name: "skills.tools", type: "tools" },
-];
 
 export const SkillsSection = () => {
   const { t } = useTranslation();
@@ -27,7 +20,7 @@ export const SkillsSection = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category, key) => (
+          {skillsCategories.map((category, key) => (
             <button
               key={key}
               className={cn(
@@ -53,16 +46,7 @@ export const SkillsSection = () => {
                 <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
               <div className="w-full bg-secondary/50 h2 rounded-full overflow-hidden">
-                <div
-                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                  style={{ width: skill.level + "%" }}
-                />
-              </div>
-
-              <div className="text-right mt-1">
-                <span className="text-sm text-muted-foreground">
-                  {skill.level}%
-                </span>
+                <i className={skill.icon} style={{ fontSize: "48px" }}></i>
               </div>
             </div>
           ))}
