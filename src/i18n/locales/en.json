@@ -1,4 +1,8 @@
 {
+  "notFound": {
+    "pageNotFound": "Page Not Found",
+    "goBack": "Go Back"
+  },
   "navbar": {
     "home": "Home",
     "about": "About",
@@ -23,8 +27,8 @@
     "downloadCV": "Download CV",
     "webDevelopment": "Web Development",
     "creatingResponsive": "Creating responsive websites and web applications with modern frameworks.",
-    "uiuxDesign": "UI/UX Design",
-    "designingIntuitive": "Designing intuitive user interfaces and seamless user experiences.",
+    "webPerformance": "Web Performance",
+    "developingInterfaces": "Developing fast and optimized interfaces, prioritizing performance, best practices, and a fluid user experience.",
     "projectManagement": "Project Management",
     "leadingProjects": "Leading projects from conception to completion with agile methodologies."
   },

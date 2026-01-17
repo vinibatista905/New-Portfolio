@@ -1,4 +1,8 @@
 {
+  "notFound": {
+    "pageNotFound": "Página Não Encontrada",
+    "goBack": "Voltar"
+  },
   "navbar": {
     "home": "Home",
     "about": "Sobre",
@@ -23,8 +27,8 @@
     "downloadCV": "Baixar Currículo",
     "webDevelopment": "Desenvolvimento Web",
     "creatingResponsive": "Criando sites e aplicações web responsivas com frameworks modernos.",
-    "uiuxDesign": "Design UI/UX",
-    "designingIntuitive": "Projetando interfaces de usuário intuitivas e experiências digitais fluidas.",
+    "webPerformance": "Performance Web",
+    "developingInterfaces": "Desenvolvimento de interfaces rápidas e otimizadas, priorizando desempenho, boas práticas e uma experiência fluida para o usuário.",
     "projectManagement": "Gestão de Projetos",
     "leadingProjects": "Liderando projetos desde a concepção até a entrega utilizando metodologias ágeis."
   },
