@@ -1,24 +1,16 @@
-import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/utils";
 
 export const LanguageToggle = () => {
   const { i18n } = useTranslation();
 
-  const [language, setLanguage] = useState(() => {
-    return localStorage.getItem("lang") || "pt";
-  });
-
-  useEffect(() => {
-    i18n.changeLanguage(language);
-    localStorage.setItem("lang", language);
-  }, [language, i18n]);
-
   const toggleLanguage = () => {
-    setLanguage((prev) => (prev === "pt" ? "en" : "pt"));
+    const newLang = i18n.language === "pt" ? "en" : "pt";
+    i18n.changeLanguage(newLang);
+    localStorage.setItem("lang", newLang);
   };
 
-  const isPt = language === "pt";
+  const isPt = i18n.language === "pt";
 
   return (
     <div
